@@ -1,0 +1,59 @@
+.my-container{
+    color: white;
+    background-color: gray;
+    border-radius: 5px;
+    box-shadow: 6px 6px 30px yellow;
+    margin: 10px auto;
+    width: 160px;
+    padding: 20px;
+}
+
+.my-logo{
+    max-width: 400px;
+    padding: 1rem;
+    background-color: #212121;
+    margin: auto;
+}
+
+.aviato-head{
+    text-align: center;
+    color: #fff; 
+}
+
+.aviato-logo{
+    margin: 1rem auto;
+    display: block;
+    max-width: 200px;
+    border-radius: 50%;
+}
+
+.my-background{
+    background-image: url(tea.jpg);
+    min-height: 500px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+
+.default{
+    background-color:green;
+}
+
+.hover:hover {
+    background-color: red;
+}
+
+.active:active {
+    background-color: blue;
+}
+
+.visit{
+    color: black;
+}
+
+.visit:visited{
+    color: red;
+}
+
