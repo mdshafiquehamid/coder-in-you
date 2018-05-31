@@ -33,7 +33,7 @@ input[type=email]{
 
 	/*5. remove existing border to: none*/
 	/*6. create an underline effect by setting a new border-bottom to: 1px solid black*/
-	border-style: none;
+	border: none;
 	border-bottom: 1px solid black;
 }
 
@@ -43,7 +43,7 @@ input[type=email]:focus{
 
 	/*7. remove the default glow with outline:none */
 	/*8. set the border and text color to: orangered*/
-	/* outline: none; */
+	outline: none;
 	border-color: orangered;
 	color: orangered;
 }

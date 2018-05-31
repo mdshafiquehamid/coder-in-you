@@ -3,7 +3,6 @@
 .my-body{
 	font-family: "Lato";
 	margin: 0;
-	background-color: transparent;
 }
 .my-container{
 	font-size: 3rem;
@@ -19,8 +18,8 @@
 /*5. align the image background position*/
 /*6. make a parallax effect by fixing the background-attachment*/
 .my-parallax{
-	min-height: 800vh;
-	background-image: url(galaxy_background.jpg);
+	min-height: 80vh;
+	background-image: url('galaxy_background.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: bottom;
