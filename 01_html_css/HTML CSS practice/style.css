@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100,400,900');
+
+.my-body{
+    background-image: url('x-force.jpg');
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+    font-family: 'Lato';
+}
+
+.my-div{
+    border: 1px solid rgba(240, 233, 233, 0.5);
+    width: 800px;
+    margin: 110px auto 10px auto;
+    background-color: rgba(250, 245, 245, 0.7);
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.1);
+}
+
+.my-img{
+    display: block;
+    width: 250px;
+    height: 250px;
+    margin: auto;
+    border-radius: 50%;
+    margin-top: -100px;
+
+}
+
+h1{
+    text-align: center;
+}
+
+hr{
+    max-width: 300px;
+    border: 10px solid black;
+}
