@@ -34,3 +34,12 @@ hr{
     max-width: 300px;
     border: 10px solid black;
 }
+
+p{
+    padding: 0px 20px;
+}
+
+.my-table{
+    margin: auto;
+    
+}

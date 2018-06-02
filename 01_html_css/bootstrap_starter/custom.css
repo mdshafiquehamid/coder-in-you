@@ -1,3 +1,19 @@
 .btn {
     font-size: 12px;
 }
+
+.jumbotron{
+    background-image: url('https://images5.alphacoders.com/395/395114.png');
+    background-position: center;
+}
+
+.my-face{
+    display: block;
+    width: 200px;
+    height: 200px;
+}
+
+.social{
+    padding-top: 20px;
+    font-size: 20px;
+}
