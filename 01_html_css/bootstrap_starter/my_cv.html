@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <!-- support mobile responsive  -->
@@ -7,7 +8,8 @@
     <title>Bootstrap Walkthrough</title>
 
     <!-- default bootstrap -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
 
     <!-- try themes from: https://startbootstrap.com/-->
     <!-- <link rel="stylesheet" type="text/css" href="theme.css"> -->
@@ -17,10 +19,10 @@
 
     <!-- font awesome -->
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/fontawesome/4.7.0/css/font-awesome.min.css">
-    
+
     <!-- animate.css -->
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/animatecss/3.5.2/animate.min.css">
-    
+
     <link rel="stylesheet" href="custom.css">
 
     <!-- use this style for testing and development purposes -->
@@ -29,8 +31,9 @@
     .row{border: 1px dotted red;}
     .row [class*=' col-']{border: 2px dotted purple;}
     </style> -->
-    
+
 </head>
+
 <body>
     <div class="container">
 
@@ -41,7 +44,9 @@
                     <h1>Eat, Code, Sleep, Repeat</h1>
                     <p>Captain Steve Rogers
                     </p>
-                    <p><a class="btn btn-danger btn-lg" href="#" role="button">Avengers Assemble</a></p>
+                    <p>
+                        <a class="btn btn-danger btn-lg" href="#" role="button">Avengers Assemble</a>
+                    </p>
                 </div>
             </div>
         </div>
@@ -49,7 +54,8 @@
         <div class="row">
             <div class="col-md-4">
                 <div class="thumbnail">
-                    <img class="my-face" class="img-responsive" src="http://images6.fanpop.com/image/photos/38100000/Captain-America-Winter-Soldier-captain-america-38170922-500-281.jpg" alt="My Shield">
+                    <img class="my-face" class="img-responsive" src="http://images6.fanpop.com/image/photos/38100000/Captain-America-Winter-Soldier-captain-america-38170922-500-281.jpg"
+                        alt="My Shield">
                     <div class="caption">
                         <h3>My Shield</h3>
                         <p>Made of vibranium, it defys the law of physics</p>
@@ -69,7 +75,8 @@
             </div>
             <div class="col-md-4">
                 <div class="thumbnail">
-                    <img class="my-face" src="https://vignette.wikia.nocookie.net/avengersearthsmightiestheroes/images/5/5a/Avengers_ground_team.png/revision/latest?cb=20121204215947" alt="My Team">
+                    <img class="my-face" src="https://vignette.wikia.nocookie.net/avengersearthsmightiestheroes/images/5/5a/Avengers_ground_team.png/revision/latest?cb=20121204215947"
+                        alt="My Team">
                     <div class="caption">
                         <h3>My Team</h3>
                         <p>We will do this, together...</p>
@@ -82,57 +89,53 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="embed-responsive embed-responsive-16by9">
-                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/bmWLLempSyI" ></iframe>
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/bmWLLempSyI"></iframe>
                 </div>
             </div>
         </div>
         <!-- form + text -->
         <div class="row">
             <div class="col-md-6">
-                        <form action="">
-                            <h3>Talk to me</h3>
+                <form action="">
+                    <h3>Talk to me</h3>
 
-                            <div class="form-group">
-                                <label for="name">Name</label>
-                                <input class="form-control" type="text" id="name" placeholder="frank" name="name">
-                            </div>
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input class="form-control" type="text" id="name" placeholder="frank" name="name">
+                    </div>
 
-                            <div class="form-group">
-                                <label for="email">Email</label>
-                                <input class="form-control" type="email" id="email" placeholder="frank@email.com" name="email">
-                            </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input class="form-control" type="email" id="email" placeholder="frank@email.com" name="email">
+                    </div>
 
-                            <div class="form-group">
-                                <div class="radio">
-                                    <label>
-                                        <input type="radio" name="newsletter" value="weekly" checked>
-                                    Send me weekly newsletters</label>
-                                </div>
-                                <div class="radio">
-                                    <label>
-                                        <input type="radio" name="newsletter" value="never">
-                                    Dont Send me weekly newsletters</label>
-                                </div>
-                            </div>
+                    <div class="form-group">
+                        <div class="radio">
+                            <label>
+                                <input type="radio" name="newsletter" value="weekly" checked> Send me weekly newsletters</label>
+                        </div>
+                        <div class="radio">
+                            <label>
+                                <input type="radio" name="newsletter" value="never"> Dont Send me weekly newsletters</label>
+                        </div>
+                    </div>
 
-                            <div class="form-group">
-                                <input type="submit" class="btn btn-success" value="Drop me an Email">
-                            </div>
-                        </form>
+                    <div class="form-group">
+                        <input type="submit" class="btn btn-success" value="Drop me an Email">
+                    </div>
+                </form>
             </div>
             <div class="col-md-6">
                 <h3 class="text-center">About Me</h3>
                 <hr>
-                <p>Captain America is a fictional superhero appearing in American comic books 
-                    published by Marvel Comics. Created by cartoonists Joe Simon and Jack Kirby, 
-                    the character first appeared in Captain America Comics #1 (cover dated March 
-                    1941) from Timely Comics, a predecessor of Marvel Comics. Captain America was 
-                    designed as a patriotic supersoldier who often fought the Axis powers of 
-                    World War II and was Timely Comics' most popular character during the wartime 
-                    period. The popularity of superheroes waned following the war and the Captain 
-                    America comic book was discontinued in 1950, with a short-lived revival in 1953. 
+                <p>Captain America is a fictional superhero appearing in American comic books published by Marvel Comics. Created
+                    by cartoonists Joe Simon and Jack Kirby, the character first appeared in Captain America Comics #1 (cover
+                    dated March 1941) from Timely Comics, a predecessor of Marvel Comics. Captain America was designed as
+                    a patriotic supersoldier who often fought the Axis powers of World War II and was Timely Comics' most
+                    popular character during the wartime period. The popularity of superheroes waned following the war and
+                    the Captain America comic book was discontinued in 1950, with a short-lived revival in 1953.
                 </p>
-                
+
             </div>
         </div>
         <!-- table, map, contact list -->
@@ -159,19 +162,19 @@
                 </table>
             </div>
             <div class="col-md-4">
-                    <div class="embed-responsive embed-responsive-4by3">
-                        <iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.69678368742!2d103.94551201403357!3d1.3585573619276083!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da3d0f482c7265%3A0xc8424aa9824919f1!2sTampines+Street+41!5e0!3m2!1sen!2ssg!4v1527912931385"></iframe>
-                    </div>
+                <div class="embed-responsive embed-responsive-4by3">
+                    <iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.69678368742!2d103.94551201403357!3d1.3585573619276083!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da3d0f482c7265%3A0xc8424aa9824919f1!2sTampines+Street+41!5e0!3m2!1sen!2ssg!4v1527912931385"></iframe>
+                </div>
             </div>
             <div class="col-md-4">
                 <h3>Check me out</h3>
                 <div class="list-group">
                     <a href="tel:1234" class="list-group-item">
-                        <i class="fa fa-phone fa-fw" aria-hidden="true"></i>  +65 123 456 789</a>
+                        <i class="fa fa-phone fa-fw" aria-hidden="true"></i> +65 123 456 789</a>
                     <a href="mailto:shafique@gmail.com" class="list-group-item">
-                            <i class="fa fa-envelope fa-fw" aria-hidden="true"></i>  hello@meet.me</a>
+                        <i class="fa fa-envelope fa-fw" aria-hidden="true"></i> hello@meet.me</a>
                     <a href="#" class="list-group-item">
-                            <i class="fa fa-telegram fa-fw" aria-hidden="true"></i>  t.me/cap</a>
+                        <i class="fa fa-telegram fa-fw" aria-hidden="true"></i> t.me/cap</a>
                 </div>
             </div>
         </div>
@@ -199,13 +202,19 @@
                             <i class="fa fa-snapchat" aria-hidden="true"></i>
                         </a>
                     </li>
+                    <li>
+                        <a href="">
+                            <i class="fa fa-snapchat" aria-hidden="true"></i>
+                        </a>
+                    </li>
                 </ul>
 
             </div>
         </div>
-        
+
     </div>
 
 
 </body>
+
 </html>

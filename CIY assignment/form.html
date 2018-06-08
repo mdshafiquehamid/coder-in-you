@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Join Me</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/fontawesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body class="my-body">
+    <!-- Nav-bar -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapse2" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+                <a class="navbar-brand" href="shafique.html">
+                    <i class="fa fa-grav" aria-hidden="true"></i>
+                    Shafique</a>
+            </div>
+            <div class="collapse navbar-collapse" id="collapse2">
+                <div class="nav navbar-nav">
+                    <li>
+                        <a href="">Home</a>
+                    </li>
+                </div>
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="">Sign In&nbsp;
+                            <i class="fa fa-user" aria-hidden="true"></i>
+                        </a>
+                    </li>
+                    <li class="active">
+                        <a href="">Join Me&nbsp;
+                            <i class="fa fa-user-plus" aria-hidden="true"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="form-contain">
+        <img class="rev" src="rev.jpg" alt="Join me!">
+
+        <h1 class="text-center form-head">Join Me!</h1>
+
+        <hr class="form-hr">
+
+        <form action="">
+            <div>
+                <label for="name">Name</label>
+                <input id="name" type="text" name="name" placeholder="Full Name">
+            </div>
+            <div class="formgrp">
+                <label for="email">Email</label>
+                <input id="email" type="email" name="email" placeholder="me@email.com">
+            </div>
+            <div class="formgrp">
+                <label for="title">Title</label>
+                <input id="title" type="text" name="title" placeholder="Job Title">
+            </div>
+            <div class="formgrp">
+                <label for="bday">Birthday</label>
+                <input type="month" id="bday" name="bday" value="2018-06">
+                
+                <span class="spgen">
+                <label for="gender">Gender</label>
+                <select class="select" name="gender" id="gender">
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                </select>
+                </span>
+            </div>
+            <div class="formgrp">
+                <p class="tell-me">Tell me more about yourself</p>
+                <textarea class="textarea" name="yourself" rows="8" cols="66" placeholder="Tell me more (interests, passions, hobbies..)"></textarea>
+            </div>
+            <h4 class="text-center form-h4">Account particulars</h4>
+            <div class="formgrp">
+                <label for="username">Username</label>
+                <input id="username" type="text" name="username" placeholder="Albus0509">
+            </div>
+            <div class="formgrp">
+                    <label for="password">Password</label><br>
+                    <label class="charac6" for="password">Must have at least 6 characters</label>
+                    <input id="Password" type="password" name="password" placeholder="password">
+                </div>
+            <div>
+                <input type="Submit" value="Enter" class="btn btn-danger">
+            </div>
+        </form>
+
+    </div>
+
+</body>
+
+</html>

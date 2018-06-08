@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css?family=Arvo:400,400i,700');
+
+.my-body {
+    background-image: url('bat.jpg');
+    background-size: cover;
+    background-position: 0px -150px;
+    background-attachment: fixed;
+    font-family: "Arvo";
+}
+
+.jumbotron {
+    background-image: url('jumbo.jpg');
+    background-size: cover;
+    background-position: center;
+    padding-left: 200px;
+    height: 600px;
+    padding-top: 200px;
+}
+
+.h1j{
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+				 0px 8px 13px rgba(0,0,0,0.1),
+				 0px 18px 23px rgba(0,0,0,0.1);
+}
+
+.my-face{
+    display: block;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    margin-right: 80px;
+    border: 1px solid black;
+}
+
+.face{
+    /* padding-top: 280px; */
+}
+
+.face-h3 {
+    font-weight:700;
+    color: black;
+    font-size: 30px;
+    border-bottom: 3px solid black;
+    width: 50%;
+    margin: auto;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+				 0px 8px 13px rgba(0,0,0,0.1),
+				 0px 18px 23px rgba(0,0,0,0.1);
+}
+
+.face-p{
+    color: black;
+    font-size: 15px;
+    line-height: 2.5rem;
+}
+
+/* .span-p{
+    margin-bottom: 1px;
+} */
+
+.face2{
+    background-color: rgba(243, 239, 239, 0.445);
+    text-align: center;
+    width: 80%;
+    height: 200px;
+    margin-top: 0px;
+    margin-left: -140px;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.1);
+    padding-top: 10px;
+}
+
+.experience-h1{
+    color: rgb(240, 229, 229);
+    font-size: 40px;
+}
+
+.table{
+    width: 70%;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.table, th{
+    text-align: center;
+}
+
+.table2{
+    margin-top: 30px;
+}
+
+.achievement-h1{
+    color: rgb(240, 229, 229);
+    font-size: 40px;
+    margin-top: 40px;
+}
+
+.col-1, .col-2, .col-3{
+    margin-top: 30px;
+}
+
+.col-1{
+    padding-right: 0px;
+    padding-left: 30px;
+    margin-top: 50px;
+}
+
+.col-3{
+    padding-left: 0px;
+    padding-right: 30px;
+    margin-top: 70px;
+}
+
+.caption h3, .caption p{
+    color: white;
+}
+
+.contact-h1{
+    color: rgb(240, 229, 229);
+    font-size: 40px;
+    margin-top: 30px;
+}
+
+.contact-row{
+    margin-top: 30px;
+}
+
+.contact-h3 {
+    color: white;
+}
+
+
+.list-group{
+    padding-right: 20px;
+}
+
+.thumbnail{
+    background-color: rgba(2, 3, 36, 0.5);
+    border: none;
+}
+
+.flame{
+    display: inline;
+    width: 20px;
+    vertical-align: -3px;
+      
+}
+
+.socol {
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+.form-contain{
+    max-width: 600px;
+    margin: auto;
+    background-color: rgba(2, 3, 36, 0.5);
+    margin-top: 200px;
+    border: 0.1px solid rgba(2, 3, 36, 0.5);
+    margin-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    
+}
+
+.rev{
+    display: block;
+    width: 300px;
+    margin: auto;
+    border-radius: 50%;
+    border: 1px solid black;
+    margin-top: -100px;
+}
+
+.form-hr{
+    width: 300px;
+    border: 3px solid rgba(20, 132, 236, 0.459);
+}
+
+.formgrp{
+    margin: 20px auto;
+}
+
+input[type=text], input[type=email], input[type=password] { 
+    width: 100%;
+    font-size: 1.5rem;
+    height: 3rem;
+    border: none;
+    border-bottom: 1px solid  rgba(20, 132, 236, 0.459);
+    background-color: rgba(2, 3, 36, 0.5);
+}
+
+input[type=month], .select{
+    border: none;
+    height: 3rem;
+    border-bottom: 1px solid  rgba(20, 132, 236, 0.459);
+    background-color: rgba(2, 3, 36, 0.5);
+    font-size: 1.5rem;
+    width: 33%;
+}
+
+.textarea{
+    background-color: rgba(2, 3, 36, 0.5);
+    border: 1px solid  rgba(20, 132, 236, 0.459);
+    font-size: 1.5rem;
+}
+
+.spgen{
+    padding: 10px;
+}
+
+.form-head{
+    color: rgb(240, 229, 229);
+    font-size: 40px;
+}
+
+label, .tell-me{
+    color: white;
+    font-weight: normal;
+    font-size: 1.8rem;
+}
+
+input[type=text]:focus, input[type=email]:focus, input[type=password]:focus, input[type=month]:focus {
+    outline: none;
+    border-color: aqua;
+    color: aqua;
+}
+
+textarea:focus{
+    color: aqua;
+    border-color: aqua;
+}
+
+.form-h4{
+    color: rgb(240, 229, 229);
+    font-size: 30px;
+}
+
+.charac6{
+    font-size: 12px;
+}

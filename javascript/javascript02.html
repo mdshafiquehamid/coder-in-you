@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My JavasScript 02</title>
+
+    <script language="javascript" type="text/javascript">
+
+        // variable
+        var myObject;
+
+
+        myObject = [
+            {
+                // key
+                "id": 1,
+                "name": "Steven",
+                "dob": "01-Jan-1977",
+                "cars": ["Civic", "Evolution", "Subaru"]
+            },
+            {
+                "id": 2,
+                "name": "Eddie",
+                "dob": "18-Dec-1977",
+                "cars": ["QQ", "Chevrolet", "Mini"]
+            },
+            {
+                "id": 3,
+                "name": "Grace",
+                "dob": "07-Jul-1977",
+                "cars": ["BMW", "Mercedes", "Lexus"]
+            }];
+
+        var linebreak = "<br>"
+
+        function printData(count) {
+
+            // assignment - whatever from the right hand side is placed inside memory of var x
+            var name = myObject[count].name;
+            var dob = myObject[count].dob;
+            var car = "";
+            var carlen = myObject[0].cars.length;
+            // document.getElementById("demo").innerHTML += name + linebreak + dob + linebreak + car + linebreak;
+            // document.getElementById("demo").innerHTML = document.getElementById("demo").innerHTML + name + linebreak + dob + linebreak + car + linebreak;
+            // .innerHTML refer to the content inside the id of d
+            
+            for(var i = 0; i < carlen; i++){
+                car += myObject[count].cars[i] + linebreak; //car = car + myObject[count].cars[i];
+            }
+
+            var x =  document.getElementById("demo").innerHTML;
+            document.getElementById("demo").innerHTML = x + name + linebreak + dob + linebreak + car + linebreak;
+        }
+
+        function whileloopData() {
+            var counter = 0;
+
+            while (counter < myObject.length){
+                printData(counter);
+
+                counter++;
+
+            }
+        }
+
+    </script>
+
+
+</head>
+
+<body>
+    <input type="button" value="Print Data" onclick="whileloopData()" >
+
+    <p id="demo">
+
+    </p>
+
+</body>
+
+</html>
